@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+  background-image: url("matrix.gif");
+  margin: 0rem;
+  overflow: hidden;
+}
+
+a {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: #29FF06;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  text-decoration: none;
+  background-color: black;
+  opacity: 0.8;
+}
+
+a:hover {
+  transition: calc(50%);
+  background-color: black;
+  color: #0BFF24;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
